@@ -55,7 +55,7 @@ nav a {
     margin-top: 10rem;
 }
 
-#projects h1{
+#projects h1, #skills h1, #contact h1 {
     margin-bottom: 5rem;
     text-align: center;
 }
@@ -102,4 +102,22 @@ nav a {
 
 #tea-cozy p {
     color: lightyellow;
+}
+
+#tech-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+#front-end, #back-end, #version-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 35rem;
+}
+
+.tech-icon-container{
+    display: flex;
+    gap: 1rem;
+    min-width: 10%;
 }
