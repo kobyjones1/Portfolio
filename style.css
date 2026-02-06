@@ -73,6 +73,22 @@ nav a {
     border-radius: 10px;
 }
 
+#projects img {
+    transition: transform 0.3s ease;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+#skills img {
+    transition: transform 0.2s ease;
+}
+
+#skills img:hover {
+    transform: scale(1.4);
+}
+
 #fungeons-text{
     width: 100%;
 }
@@ -94,6 +110,10 @@ nav a {
 
 #fotomatic p {
     color: lightgreen;
+}
+
+#tea-cozy-text {
+    width: 100%;
 }
 
 #tea-cozy h2 {
