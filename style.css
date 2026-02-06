@@ -1,3 +1,22 @@
+:root {
+    --primary-color: #004d99;
+    --secondary-color: pink;
+    --accent-color: lightgreen;
+    --text-color: white;
+    --font-family: monospace;
+
+    --fungeons-header-color: orangered;
+    --fungeons-text-color: pink;
+
+    --fotomatic-header-color: lightgreen;
+    --fotomatic-text-color: white;
+
+    --tea-cozy-header-color: tan;
+    --tea-cozy-text-color: lightyellow;
+
+    --submit-button-color: black;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +26,9 @@
 body {
     max-width: 75%;
     margin: auto;
-    background-color: #004d99;
-    color: pink;
-    font-family: monospace;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family);
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -23,7 +42,7 @@ nav {
 }
 
 nav h2 {
-    color: white;
+    color: var(--text-color);
     margin-left: 1rem;
 }
 nav li {
@@ -33,7 +52,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: greenyellow;
+    color: var(--accent-color);
 }
 
 #summary {
@@ -106,15 +125,15 @@ nav a {
     margin-bottom: 1rem;
 }
 #fungeons-and-dragons h2 {
-    color: orangered;
+    color: var(--fungeons-header-color);
 }
 
 #fotomatic h2 {
-    color: white;
+    color: var(--fotomatic-header-color);
 }
 
 #fotomatic p {
-    color: lightgreen;
+    color: var(--fotomatic-text-color);
 }
 
 #tea-cozy-text {
@@ -122,11 +141,11 @@ nav a {
 }
 
 #tea-cozy h2 {
-    color: tan;
+    color: var(--tea-cozy-header-color);
 }
 
 #tea-cozy p {
-    color: lightyellow;
+    color: var(--tea-cozy-text-color);
 }
 
 #tech-icons {
@@ -156,7 +175,7 @@ nav a {
 }
 
 #contact a {
-    color: lightgreen;
+    color: var(--accent-color);
 }
 
 #contact-form {
@@ -176,7 +195,7 @@ nav a {
 }
 
 .contact-input-fields:focus {
-    border: 3px solid pink;
+    border: 3px solid var(--secondary-color);
 }
 
 #message {
@@ -192,8 +211,8 @@ nav a {
     border-radius: 3px;
     border: none;
     outline: none;
-    background-color: pink;
-    color: black;
+    background-color: var(--secondary-color);
+    color: var(--submit-button-color);
     font-weight: bold;
     cursor: pointer;
 }
