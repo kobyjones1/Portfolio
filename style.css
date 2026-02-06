@@ -69,14 +69,21 @@ nav a {
 }
 
 #fungeons-and-dragons img, #fotomatic img, #tea-cozy img {
-    max-width: 70%;
+    max-width: 100%;
     border-radius: 10px;
 }
 
-#fungeons-and-dragons {
-    gap: 2rem;
+#fungeons-text{
+    width: 100%;
 }
 
+#fungeons-and-dragons {
+    gap: 5rem;
+}
+
+#fungeons-and-dragons h2, #fotomatic h2, #tea-cozy h2 {
+    margin-bottom: 1rem;
+}
 #fungeons-and-dragons h2 {
     color: orangered;
 }
@@ -85,6 +92,14 @@ nav a {
     color: white;
 }
 
+#fotomatic p {
+    color: lightgreen;
+}
+
 #tea-cozy h2 {
     color: tan;
+}
+
+#tea-cozy p {
+    color: lightyellow;
 }
