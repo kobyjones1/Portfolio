@@ -14,7 +14,34 @@
     --tea-cozy-header-color: tan;
     --tea-cozy-text-color: lightyellow;
 
+    --contact-accent-color: lightgreen;
+    --contact-focus-color: pink;
+
     --submit-button-color: black;
+}
+
+.alt-color-mode {
+    --primary-color: pink;
+    --secondary-color: #004d99;
+    --accent-color: white;
+    --text-color: green;
+    --font-family: monospace;
+
+    --nav-hover-color: lightgreen;
+
+    --fungeons-header-color: blue;
+    --fungeons-text-color: pink;
+
+    --fotomatic-header-color: black;
+    --fotomatic-text-color: gray;
+
+    --tea-cozy-header-color: goldenrod;
+    --tea-cozy-text-color: brown;
+
+    --contact-accent-color: #004d99;
+    --contact-focus-color: lightgreen;
+
+    --submit-button-color: white;
 }
 
 * {
@@ -50,9 +77,21 @@ nav li {
     padding: 0 1rem;
 }
 
+#koby-jones {
+    color: var(--text-color);
+}
+
+#koby-jones:hover {
+    color: var(--accent-color);
+}
+
 nav a {
     text-decoration: none;
     color: var(--accent-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-color);
 }
 
 #summary {
@@ -194,8 +233,12 @@ nav a {
     padding: 1rem;
 }
 
+.contact-input-fields:hover {
+    border: 3px solid var(--contact-accent-color);
+}
+
 .contact-input-fields:focus {
-    border: 3px solid var(--secondary-color);
+    border: 3px solid var(--contact-focus-color);
 }
 
 #message {
