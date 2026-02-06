@@ -18,10 +18,18 @@
         </ul>
     </nav>
 
-    <section id="contact">
-            <h2>Contact</h2>
+    <div id="contact">
+        <h1>Contact</h1>
 
-            <p>Email: <a href="mailto:kobyjonesofficial@gmail.com">kobyjonesofficial@gmail.com</a></p>
-    </section>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="92aadabe-25b6-4ee8-b09a-9a78eee25fa3">
+
+            <input type="text" id="email-name" name="email-name" class="contact-input-fields" placeholder="Your Name" required >
+            <input type="email" id="email-address" name="email-address" class="contact-input-fields" placeholder="Your Email Address" required>
+            <textarea name="message" id="message" required class="contact-input-fields" placeholder="Your Message"></textarea>
+            
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
