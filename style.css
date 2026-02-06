@@ -11,6 +11,7 @@ body {
     color: pink;
     font-family: monospace;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -37,14 +38,53 @@ nav a {
 
 #summary {
     display: flex;
+    margin-top: 10rem;
 }
 
 #summary-text p{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #summary img {
     max-width: 40%;
     margin-left: 2rem;
     border-radius: 10px;
+}
+
+#projects, #skills, #contact {
+    margin-top: 10rem;
+}
+
+#projects h1{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#fungeons-and-dragons, #fotomatic, #tea-cozy {
+    display: flex;
+    gap: 10rem;
+    justify-content:  center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#fungeons-and-dragons img, #fotomatic img, #tea-cozy img {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+#fungeons-and-dragons {
+    gap: 2rem;
+}
+
+#fungeons-and-dragons h2 {
+    color: orangered;
+}
+
+#fotomatic h2 {
+    color: white;
+}
+
+#tea-cozy h2 {
+    color: tan;
 }
