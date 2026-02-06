@@ -49,6 +49,11 @@ nav a {
     max-width: 40%;
     margin-left: 2rem;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#summary img:hover {
+    transform: scale(1.05);
 }
 
 #projects, #skills, #contact {
